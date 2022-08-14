@@ -9,7 +9,7 @@ import sttp.tapir._
 import sttp.tapir.docs.openapi._
 import sttp.tapir.json.circe._
 import sttp.tapir.openapi.Info
-// import sttp.tapir.openapi.circe.yaml._
+import sttp.tapir.openapi.circe.yaml._
 
 class Endpoints(val basePath: String) {
 
