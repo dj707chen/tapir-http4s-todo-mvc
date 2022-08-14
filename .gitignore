@@ -1,4 +1,16 @@
-*.class
-*.log
 target/
+.bsp/
 .idea/
+# vim
+*.sw?
+
+# Ignore [ce]tags files
+tags
+
+# Metals
+.metals
+.bloop
+metals.sbt
+.vscode 
+
+.DS_Store

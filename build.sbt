@@ -1,12 +1,12 @@
 val tapirVersion  = "0.10.1"
-val http4sVersion = "0.20.0"
+val http4sVersion = "0.20.21"
 
 lazy val root = project
   .in(file("."))
   .settings(
     name := "tapir-http4s-todo-mvc",
     version := "0.1",
-    scalaVersion := "2.12.8",
+    scalaVersion := "2.12.12",
     libraryDependencies ++=
       Seq(
         "com.softwaremill.tapir" %% "tapir-core"                     % tapirVersion,
