@@ -68,7 +68,7 @@ class Endpoints(val basePath: String) {
       .in(basePath / path[UUID]("uuid"))
       .out(jsonBody[Todo])
       .errorOut(stringBody)
-      .description("Get TODO item by UUID")
+      .description("Get TODO item by UUID, edited")
 
   lazy val patchByIdEndpoint: Endpoint[(UUID, Todo), String, Todo, Nothing] =
     endpoint.patch
