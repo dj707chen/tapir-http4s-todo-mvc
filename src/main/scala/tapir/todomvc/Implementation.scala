@@ -5,7 +5,7 @@ import cats.data.NonEmptyList
 import cats.effect._
 import cats.implicits._
 import org.http4s.HttpRoutes
-import tapir.server.http4s._
+import sttp.tapir.server.http4s._
 import org.http4s.dsl.Http4sDsl
 
 import scala.collection.mutable

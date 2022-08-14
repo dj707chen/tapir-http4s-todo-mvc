@@ -11,11 +11,11 @@ import org.scalatest.{Matchers, Outcome}
 
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
-import tapir.client.sttp._
+import sttp.tapir.client.sttp._
 import com.softwaremill.sttp._
 import com.softwaremill.sttp.asynchttpclient.cats.AsyncHttpClientCatsBackend
-import tapir.Endpoint
-import tapir._
+import sttp.tapir.Endpoint
+import sttp.tapir._
 
 class TodoMvcSpec extends org.scalatest.fixture.WordSpec with Matchers {
 
